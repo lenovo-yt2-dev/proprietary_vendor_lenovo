@@ -206,7 +206,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/yt2/proprietary/etc/firmware/isp_acc_multires_v2_css21_2400b0.bin:system/etc/firmware/isp_acc_multires_v2_css21_2400b0.bin \
     vendor/lenovo/yt2/proprietary/etc/firmware/isp_acc_warping_v2_css21_2400b0.bin:system/etc/firmware/isp_acc_warping_v2_css21_2400b0.bin \
     vendor/lenovo/yt2/proprietary/etc/firmware/shisp_2400b0_v21.bin:system/etc/firmware/shisp_2400b0_v21.bin \
+    vendor/lenovo/yt2/proprietary/lib/egl/libGLES_intel7.so:system/lib/egl/libGLES_intel7.so \
     vendor/lenovo/yt2/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
+    vendor/lenovo/yt2/proprietary/lib/libGLES_intel7.so:system/lib/libGLES_intel7.so \
     vendor/lenovo/yt2/proprietary/lib/libia_dvs_2.so:system/lib/libia_dvs_2.so \
     vendor/lenovo/yt2/proprietary/lib/libia_emd_decoder.so:system/lib/libia_emd_decoder.so \
     vendor/lenovo/yt2/proprietary/lib/libia_log.so:system/lib/libia_log.so \
