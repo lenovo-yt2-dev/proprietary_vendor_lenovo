@@ -159,6 +159,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/yt2/proprietary/lib/libaudioresample.so:system/lib/libaudioresample.so \
     vendor/lenovo/yt2/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
     vendor/lenovo/yt2/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
+    vendor/lenovo/yt2/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
+    vendor/lenovo/yt2/proprietary/lib/libmmgr_cnx.so:system/lib/libmmgr_cnx.so \
+    vendor/lenovo/yt2/proprietary/lib/libmmgr_utils.so:system/lib/libmmgr_utils.so \
     vendor/lenovo/yt2/proprietary/lib/libmodem-audio-collection.so:system/lib/libmodem-audio-collection.so \
     vendor/lenovo/yt2/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/lenovo/yt2/proprietary/lib/libproperty.so:system/lib/libproperty.so \
@@ -234,6 +237,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/yt2/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
     vendor/lenovo/yt2/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
     vendor/lenovo/yt2/proprietary/lib/hw/keystore.baytrail.so:system/lib/hw/keystore.baytrail.so \
+    vendor/lenovo/yt2/proprietary/lib/libmeimm.so:system/lib/libmeimm.so \
     vendor/lenovo/yt2/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lenovo/yt2/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lenovo/yt2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -241,10 +245,37 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/yt2/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lenovo/yt2/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lenovo/yt2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lenovo/yt2/proprietary/bin/coreu:system/bin/coreu \
+    vendor/lenovo/yt2/proprietary/bin/hdcpd:system/bin/hdcpd \
+    vendor/lenovo/yt2/proprietary/lib/egl/libGLES_intel7.so:system/lib/egl/libGLES_intel7.so \
     vendor/lenovo/yt2/proprietary/lib/hw/gralloc.baytrail.so:system/lib/hw/gralloc.baytrail.so \
+    vendor/lenovo/yt2/proprietary/lib/hw/hwcomposer.baytrail.so:system/lib/hw/hwcomposer.baytrail.so \
+    vendor/lenovo/yt2/proprietary/lib/i965_drv_video.so:system/lib/i965_drv_video.so \
+    vendor/lenovo/yt2/proprietary/lib/libGLES_intel7.so:system/lib/libGLES_intel7.so \
+    vendor/lenovo/yt2/proprietary/lib/libRSDriverMlc_intel7.so:system/lib/libRSDriverMlc_intel7.so \
+    vendor/lenovo/yt2/proprietary/lib/libRSDriverUmd_intel7.so:system/lib/libRSDriverUmd_intel7.so \
+    vendor/lenovo/yt2/proprietary/lib/libRSDriver_intel7.so:system/lib/libRSDriver_intel7.so \
+    vendor/lenovo/yt2/proprietary/lib/libcoreuclient.so:system/lib/libcoreuclient.so \
+    vendor/lenovo/yt2/proprietary/lib/libcoreuinterface.so:system/lib/libcoreuinterface.so \
+    vendor/lenovo/yt2/proprietary/lib/libcoreuservice.so:system/lib/libcoreuservice.so \
+    vendor/lenovo/yt2/proprietary/lib/libdrm.so:system/lib/libdrm.so \
+    vendor/lenovo/yt2/proprietary/lib/libdrm_intel.so:system/lib/libdrm_intel.so \
+    vendor/lenovo/yt2/proprietary/lib/libgrallocclient.so:system/lib/libgrallocclient.so \
+    vendor/lenovo/yt2/proprietary/lib/libgrallocgmm.so:system/lib/libgrallocgmm.so \
+    vendor/lenovo/yt2/proprietary/lib/libgsmgr.so:system/lib/libgsmgr.so \
+    vendor/lenovo/yt2/proprietary/lib/libhwcservice.so:system/lib/libhwcservice.so \
+    vendor/lenovo/yt2/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
+    vendor/lenovo/yt2/proprietary/lib/libigdusc.so:system/lib/libigdusc.so \
+    vendor/lenovo/yt2/proprietary/lib/libivp.so:system/lib/libivp.so \
+    vendor/lenovo/yt2/proprietary/lib/libmultidisplay.so:system/lib/libmultidisplay.so \
+    vendor/lenovo/yt2/proprietary/lib/libpciaccess.so:system/lib/libpciaccess.so \
+    vendor/lenovo/yt2/proprietary/lib/libskuwa.so:system/lib/libskuwa.so \
+    vendor/lenovo/yt2/proprietary/lib/libvpp_setting.so:system/lib/libvpp_setting.so \
     vendor/lenovo/yt2/proprietary/bin/bd_prov:system/bin/bd_prov \
     vendor/lenovo/yt2/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/lenovo/yt2/proprietary/bin/fg_conf:system/bin/fg_conf \
+    vendor/lenovo/yt2/proprietary/bin/msync:system/bin/msync \
+    vendor/lenovo/yt2/proprietary/bin/lenovo_sn:system/bin/lenovo_sn \
     vendor/lenovo/yt2/proprietary/etc/firmware/aac_dec_0f28.bin:system/etc/firmware/aac_dec_0f28.bin \
     vendor/lenovo/yt2/proprietary/etc/firmware/fw_sst_0f28.bin:system/etc/firmware/fw_sst_0f28.bin \
     vendor/lenovo/yt2/proprietary/etc/firmware/maxtouch.cfg:system/etc/firmware/maxtouch.cfg \
@@ -269,6 +300,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/yt2/proprietary/etc/firmware/wm5102-dsp1-tx-spk.wmfw:system/etc/firmware/wm5102-dsp1-tx-spk.wmfw \
     vendor/lenovo/yt2/proprietary/etc/firmware/wm5102-dsp1-tx-wb.bin:system/etc/firmware/wm5102-dsp1-tx-wb.bin \
     vendor/lenovo/yt2/proprietary/etc/firmware/wm5102-dsp1-tx.wmfw:system/etc/firmware/wm5102-dsp1-tx.wmfw \
+    vendor/lenovo/yt2/proprietary/bin/gpscerd:system/bin/gpscerd \
     vendor/lenovo/yt2/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/lenovo/yt2/proprietary/lib/hw/gps.byt_t_ffrd8.so:system/lib/hw/gps.byt_t_ffrd8.so \
     vendor/lenovo/yt2/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
