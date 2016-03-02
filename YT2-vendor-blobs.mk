@@ -307,7 +307,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/bin/houdini:system/bin/houdini \
     vendor/lenovo/YT2/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/lenovo/YT2/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
+    vendor/lenovo/YT2/proprietary/lib/libisv_omx_core.so:system/lib/libisv_omx_core.so \
     vendor/lenovo/YT2/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
+    vendor/lenovo/YT2/proprietary/lib/libmfxhw32.so:system/lib/libmfxhw32.so \
+    vendor/lenovo/YT2/proprietary/lib/libmfx_mix_h264ve.so:system/lib/libmfx_mix_h264ve.so \
+    vendor/lenovo/YT2/proprietary/lib/libmfx_omx_components_hw.so:system/lib/libmfx_omx_components_hw.so \
     vendor/lenovo/YT2/proprietary/lib/libmfx_omx_components_sw.so:system/lib/libmfx_omx_components_sw.so \
     vendor/lenovo/YT2/proprietary/lib/libmfx_omx_core.so:system/lib/libmfx_omx_core.so \
     vendor/lenovo/YT2/proprietary/lib/libmfxsw32.so:system/lib/libmfxsw32.so \
@@ -318,7 +322,27 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
     vendor/lenovo/YT2/proprietary/lib/libmixvbp_vp8.so:system/lib/libmixvbp_vp8.so \
     vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderAVC.so:system/lib/libOMXVideoDecoderAVC.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderH263.so:system/lib/libOMXVideoDecoderH263.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderMPEG4.so:system/lib/libOMXVideoDecoderMPEG4.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderVP8.so:system/lib/libOMXVideoDecoderVP8.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderWMV.so:system/lib/libOMXVideoDecoderWMV.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoEncoderAVC.so:system/lib/libOMXVideoEncoderAVC.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoEncoderH263.so:system/lib/libOMXVideoEncoderH263.so \
+    vendor/lenovo/YT2/proprietary/lib/libOMXVideoEncoderMPEG4.so:system/lib/libOMXVideoEncoderMPEG4.so \
+    vendor/lenovo/YT2/proprietary/lib/libpavp.so:system/lib/libpavp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_aacdec_mdp.so:system/lib/libstagefright_soft_aacdec_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_amrdec_mdp.so:system/lib/libstagefright_soft_amrdec_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_amrenc_mdp.so:system/lib/libstagefright_soft_amrenc_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_mp3dec_mdp.so:system/lib/libstagefright_soft_mp3dec_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_vorbisdec_mdp.so:system/lib/libstagefright_soft_vorbisdec_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
+    vendor/lenovo/YT2/proprietary/lib/libva-android.so:system/lib/libva-android.so \
+    vendor/lenovo/YT2/proprietary/lib/libva.so:system/lib/libva.so \
+    vendor/lenovo/YT2/proprietary/lib/libva_videodecoder.so:system/lib/libva_videodecoder.so \
+    vendor/lenovo/YT2/proprietary/lib/libwrs_omxil_common.so:system/lib/libwrs_omxil_common.so \
+    vendor/lenovo/YT2/proprietary/lib/libwrs_omxil_core_pvwrapped.so:system/lib/libwrs_omxil_core_pvwrapped.so \
     vendor/lenovo/YT2/proprietary/lib/arm/libnetd_client.so:system/lib/arm/libnetd_client.so \
     vendor/lenovo/YT2/proprietary/lib/hw/sensors.byt_t_ffrd8.so:system/lib/hw/sensors.byt_t_ffrd8.so \
     vendor/lenovo/YT2/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
