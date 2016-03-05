@@ -301,6 +301,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/etc/firmware/wm5102-dsp1-tx-wb.bin:system/etc/firmware/wm5102-dsp1-tx-wb.bin \
     vendor/lenovo/YT2/proprietary/etc/firmware/wm5102-dsp1-tx.wmfw:system/etc/firmware/wm5102-dsp1-tx.wmfw \
     vendor/lenovo/YT2/proprietary/bin/gpscerd:system/bin/gpscerd \
+    vendor/lenovo/YT2/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/lenovo/YT2/proprietary/lib/hw/gps.byt_t_ffrd8.so:system/lib/hw/gps.byt_t_ffrd8.so \
     vendor/lenovo/YT2/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
     vendor/lenovo/YT2/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
