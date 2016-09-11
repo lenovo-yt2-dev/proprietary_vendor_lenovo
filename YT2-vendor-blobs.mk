@@ -84,6 +84,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/etc/firmware/wm5102-dsp1-tx-wb.bin:system/etc/firmware/wm5102-dsp1-tx-wb.bin \
     vendor/lenovo/YT2/proprietary/etc/firmware/wm5102-dsp1-tx.bin:system/etc/firmware/wm5102-dsp1-tx.bin \
     vendor/lenovo/YT2/proprietary/etc/firmware/wm5102-dsp1-tx.wmfw:system/etc/firmware/wm5102-dsp1-tx.wmfw \
+    vendor/lenovo/YT2/proprietary/etc/permissions/com.intel.widi.sink.xml:system/etc/permissions/com.intel.widi.sink.xml \
+    vendor/lenovo/YT2/proprietary/etc/widi/widi.conf:system/etc/widi/widi.conf \
     vendor/lenovo/YT2/proprietary/etc/wifi/bcmdhd_aob.cal_43241_b4:system/etc/wifi/bcmdhd_aob.cal_43241_b4 \
     vendor/lenovo/YT2/proprietary/lib/arm/cpuinfo:system/lib/arm/cpuinfo \
     vendor/lenovo/YT2/proprietary/lib/arm/libEGL.so:system/lib/arm/libEGL.so \
@@ -234,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/hw/keystore.baytrail.so:system/lib/hw/keystore.baytrail.so \
     vendor/lenovo/YT2/proprietary/lib/hw/sensors.byt_t_ffrd8.so:system/lib/hw/sensors.byt_t_ffrd8.so \
     vendor/lenovo/YT2/proprietary/lib/i965_drv_video.so:system/lib/i965_drv_video.so \
+    vendor/lenovo/YT2/proprietary/lib/igfxcmrt32.so:system/lib/igfxcmrt32.so \
     vendor/lenovo/YT2/proprietary/lib/libGLES_intel7.so:system/lib/libGLES_intel7.so \
     vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderAVC.so:system/lib/libOMXVideoDecoderAVC.so \
     vendor/lenovo/YT2/proprietary/lib/libOMXVideoDecoderAVCSecure.so:system/lib/libOMXVideoDecoderAVCSecure.so \
@@ -262,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/lenovo/YT2/proprietary/lib/libhwcservice.so:system/lib/libhwcservice.so \
     vendor/lenovo/YT2/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
+    vendor/lenovo/YT2/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
     vendor/lenovo/YT2/proprietary/lib/libia_aiq.so:system/lib/libia_aiq.so \
     vendor/lenovo/YT2/proprietary/lib/libia_cmc_parser.so:system/lib/libia_cmc_parser.so \
     vendor/lenovo/YT2/proprietary/lib/libia_dvs_2.so:system/lib/libia_dvs_2.so \
@@ -272,8 +276,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/libia_log.so:system/lib/libia_log.so \
     vendor/lenovo/YT2/proprietary/lib/libia_mkn.so:system/lib/libia_mkn.so \
     vendor/lenovo/YT2/proprietary/lib/libia_nvm.so:system/lib/libia_nvm.so \
+    vendor/lenovo/YT2/proprietary/lib/libigdbcl.so:system/lib/libigdbcl.so \
     vendor/lenovo/YT2/proprietary/lib/libigdusc.so:system/lib/libigdusc.so \
     vendor/lenovo/YT2/proprietary/lib/libimf.so:system/lib/libimf.so \
+    vendor/lenovo/YT2/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
     vendor/lenovo/YT2/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
     vendor/lenovo/YT2/proprietary/lib/libinterface-provider.so:system/lib/libinterface-provider.so \
     vendor/lenovo/YT2/proprietary/lib/libintlc.so:system/lib/libintlc.so \
@@ -282,6 +288,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/libivp.so:system/lib/libivp.so \
     vendor/lenovo/YT2/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
     vendor/lenovo/YT2/proprietary/lib/libmamgr-xmm.so:system/lib/libmamgr-xmm.so \
+    vendor/lenovo/YT2/proprietary/lib/libmd.so:system/lib/libmd.so \
     vendor/lenovo/YT2/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
     vendor/lenovo/YT2/proprietary/lib/libmeimm.so:system/lib/libmeimm.so \
     vendor/lenovo/YT2/proprietary/lib/libmfx_mix_h264ve.so:system/lib/libmfx_mix_h264ve.so \
@@ -307,31 +314,49 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lenovo/YT2/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/lenovo/YT2/proprietary/lib/libpavp.so:system/lib/libpavp.so \
+    vendor/lenovo/YT2/proprietary/lib/libpavpdll.so:system/lib/libpavpdll.so \
     vendor/lenovo/YT2/proprietary/lib/libpciaccess.so:system/lib/libpciaccess.so \
+    vendor/lenovo/YT2/proprietary/lib/libpcp.so:system/lib/libpcp.so \
     vendor/lenovo/YT2/proprietary/lib/libproperty.so:system/lib/libproperty.so \
+    vendor/lenovo/YT2/proprietary/lib/libsecmem.so:system/lib/libsecmem.so \
     vendor/lenovo/YT2/proprietary/lib/libskuwa.so:system/lib/libskuwa.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_aacdec_mdp.so:system/lib/libstagefright_soft_aacdec_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_aacenc_mdp.so:system/lib/libstagefright_soft_aacenc_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_amrdec_mdp.so:system/lib/libstagefright_soft_amrdec_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_amrenc_mdp.so:system/lib/libstagefright_soft_amrenc_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_mp3dec_mdp.so:system/lib/libstagefright_soft_mp3dec_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_vorbisdec_mdp.so:system/lib/libstagefright_soft_vorbisdec_mdp.so \
+    vendor/lenovo/YT2/proprietary/lib/libstagefright_soft_wmadec_mdp.so:system/lib/libstagefright_soft_wmadec_mdp.so \
     vendor/lenovo/YT2/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lenovo/YT2/proprietary/lib/libstlport-mfx.so:system/lib/libstlport-mfx.so \
     vendor/lenovo/YT2/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/lenovo/YT2/proprietary/lib/libtbd.so:system/lib/libtbd.so \
     vendor/lenovo/YT2/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/lenovo/YT2/proprietary/lib/libva-android.so:system/lib/libva-android.so \
+    vendor/lenovo/YT2/proprietary/lib/libva-tpi.so:system/lib/libva-tpi.so \
     vendor/lenovo/YT2/proprietary/lib/libva.so:system/lib/libva.so \
     vendor/lenovo/YT2/proprietary/lib/libva_videodecoder.so:system/lib/libva_videodecoder.so \
+    vendor/lenovo/YT2/proprietary/lib/libva_videoencoder.so:system/lib/libva_videoencoder.so \
     vendor/lenovo/YT2/proprietary/lib/libvpp_setting.so:system/lib/libvpp_setting.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidiedid.so:system/lib/libwidiedid.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidimedia.so:system/lib/libwidimedia.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidimediasink.so:system/lib/libwidimediasink.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidirtsp.so:system/lib/libwidirtsp.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidirtspsink.so:system/lib/libwidirtspsink.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidirtspsink_jni.so:system/lib/libwidirtspsink_jni.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidiuibc.so:system/lib/libwidiuibc.so \
+    vendor/lenovo/YT2/proprietary/lib/libwidiuibcjni.so:system/lib/libwidiuibcjni.so \
     vendor/lenovo/YT2/proprietary/lib/libwrs_omxil_common.so:system/lib/libwrs_omxil_common.so \
     vendor/lenovo/YT2/proprietary/lib/libwrs_omxil_core_pvwrapped.so:system/lib/libwrs_omxil_core_pvwrapped.so \
+    vendor/lenovo/YT2/proprietary/lib/libwsbm.so:system/lib/libwsbm.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/Audio/libimc-subsystem.so:system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so:system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/Route/libroute-subsystem.so:system/lib/parameter-framework-plugins/Route/libroute-subsystem.so \
     vendor/lenovo/YT2/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
+    vendor/lenovo/YT2/proprietary/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
     vendor/lenovo/YT2/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/lenovo/YT2/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/lenovo/YT2/proprietary/vendor/firmware/00imx135-0-0x2-0x1.drvb:system/vendor/firmware/00imx135-0-0x2-0x1.drvb \
@@ -346,6 +371,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/YT2/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lenovo/YT2/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lenovo/YT2/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lenovo/YT2/proprietary/vendor/lib/libigdfcl.so:system/vendor/lib/libigdfcl.so \
     vendor/lenovo/YT2/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/lenovo/YT2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lenovo/YT2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
